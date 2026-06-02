@@ -1,0 +1,9 @@
+technology,n_trials,n_success,success_rate_%
+Other Protein Therapy,41,37.0,90.2
+Small Molecule,843,645.0,76.5
+Radiopharmaceutical Imaging,8,6.0,75.0
+Antibody,146,100.0,68.5
+Cancer Vaccine,6,4.0,66.7
+Engineered Protein Therapy,15,10.0,66.7
+Imaging,6,3.0,50.0
+Antibody Drug Conjugate (ADC),9,3.0,33.3

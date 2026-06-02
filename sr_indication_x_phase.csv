@@ -1,0 +1,17 @@
+indication_group,phase,success_rate_%
+Breast,PHASE1,65.5
+Breast,PHASE2,84.4
+GI/Pancreatic,PHASE1,78.0
+GI/Pancreatic,PHASE2,58.1
+GI/Pancreatic,PHASE3,80.0
+GU (Prostate/Ovarian),PHASE1,52.4
+GU (Prostate/Ovarian),PHASE2,71.4
+GU (Prostate/Ovarian),PHASE3,63.6
+Hematologic,PHASE1,70.6
+Hematologic,PHASE2,60.5
+Hematologic,PHASE3,100.0
+Lung,PHASE1,58.3
+Lung,PHASE2,50.0
+Lung,PHASE3,60.0
+Pan-Tumor,PHASE1,72.9
+Pan-Tumor,PHASE2,55.6
