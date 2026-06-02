@@ -20,27 +20,32 @@ stratified success rates across four analytical dimensions.
 
 ## Repository Structure
 
-oncology-trial-analysis/
-├── data/
-│   └── SampleDateExtract.xlsx        # Raw input (do not modify)
+```text
+i3_clinical/
 ├── notebooks/
-│   ├── 01_data_quality.ipynb         # Part 1A: profiling & audit
-│   ├── 02_schema_cleaning.ipynb      # Part 1B + 2A: cleaning & success proxy
-│   ├── 03_success_analysis.ipynb     # Part 2B: stratified success rates
-│   └── 04_extended_audit.ipynb       # Extended: structural checks & improved definitions
+│   ├── 01_data_quality.ipynb
+│   ├── 02_schema_cleaning.ipynb
+│   └── 03_success_analysis.ipynb
+│
 ├── outputs/
-│   ├── quality_report.csv            # Field completeness report
-│   ├── clean_trials.csv              # Core clean table (1000 rows, 15 cols)
-│   ├── trial_indications.csv         # Normalised indications (2231 rows)
-│   ├── trial_drugs.csv               # Normalised drugs (2716 rows)
-│   ├── trial_technologies.csv        # Normalised technologies (1966 rows)
-│   ├── sr_by_phase.csv / .png        # Success rates by phase
-│   ├── sr_by_technology.csv / .png   # Success rates by technology
-│   ├── sr_by_indication.csv / .png   # Success rates by indication group
-│   ├── sr_heatmap_indication_phase   # Indication × phase cross-table
-│   └── success_definition_comparison # Four success definitions compared
-├── requirements.txt
-└── README.md
+│   ├── quality_report.csv
+│   ├── completeness_report.png
+│   ├── clean_trials.csv
+│   ├── trial_indications.csv
+│   ├── trial_drugs.csv
+│   ├── trial_technologies.csv
+│   ├── sr_by_phase.csv
+│   ├── sr_by_phase.png
+│   ├── sr_by_indication.csv
+│   ├── sr_by_indication.png
+│   ├── sr_by_technology.csv
+│   ├── sr_by_technology.png
+│   ├── sr_indication_x_phase.csv
+│   └── sr_heatmap_indication_phase.png
+│
+├── README.md
+└── requirements.txt
+```
 
 ---
 
@@ -138,5 +143,3 @@ met (Yes/No) for each completed trial.
   Flagged in Notebook 4.
 
 ---
-
-## Requirements
